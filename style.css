@@ -1,0 +1,38 @@
+:root {
+    --main-bg: rgb(122, 69, 255);
+    --calculator-bg: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background:  var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator {
+    width: 510px;
+    height: 610px;
+    background: var(--calculator-bg);
+    border-radius: 40px;
+    border: 5px solid black;
+    border-bottom: 15px solid black;
+}
+
+.disclaimer {
+    position: absolute;
+    bottom: 50px;
+    width: 100vw;
+}
+
