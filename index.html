@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="main-wrapper">
         <div class="calculator">
             <div class="screen">
-                <p class="screen-text">56 x 4</p>
+                <p class="screen-text">0</p>
             </div>
             <div class="calcul-buttons">
                 <div class="clear-buttons">
-                    <button class="clear">CLEAR</button>
-                    <button class="delete">DELETE</button>
+                    <button data-type="clear" class="clear">CLEAR</button>
+                    <button data-type="delete" class="delete">DELETE</button>
                 </div>
                 <div class="operation-buttons">
-                    <button class="calcul number">7</button>
-                    <button class="calcul number">8</button>
-                    <button class="calcul number">9</button>
-                    <button class="calcul operation">/</button>
-                    <button class="calcul number">4</button>
-                    <button class="calcul number">5</button>
-                    <button class="calcul number">6</button>
-                    <button class="calcul operation">×</button>
-                    <button class="calcul number">1</button>
-                    <button class="calcul number">2</button>
-                    <button class="calcul number">3</button>
-                    <button class="calcul operation">-</button>
-                    <button class="calcul operation">.</button>
-                    <button class="calcul number">0</button>
-                    <button class="calcul operation equal">=</button>
-                    <button class="calcul operation">+</button>
+                    <button data-type="number" class="calcul number">7</button>
+                    <button data-type="number" class="calcul number">8</button>
+                    <button data-type="number" class="calcul number">9</button>
+                    <button data-type="operator" class="calcul operation">/</button>
+                    <button data-type="number" class="calcul number">4</button>
+                    <button data-type="number" class="calcul number">5</button>
+                    <button data-type="number" class="calcul number">6</button>
+                    <button data-type="operator" class="calcul operation">x</button>
+                    <button data-type="number" class="calcul number">1</button>
+                    <button data-type="number" class="calcul number">2</button>
+                    <button data-type="number" class="calcul number">3</button>
+                    <button data-type="operator" class="calcul operation">-</button>
+                    <button data-type="dot" class="calcul operation">.</button>
+                    <button data-type="number" class="calcul number">0</button>
+                    <button data-type="equal" class="calcul operation equal">=</button>
+                    <button data-type="operator" class="calcul operation">+</button>
                 </div>
             </div>
         </div>
